@@ -1,3 +1,5 @@
+package Introduction_Java;
+
 public class variable_datatype {
     public static void main(String[] args) {
         int i = 10 ;

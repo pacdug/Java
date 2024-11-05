@@ -1,3 +1,5 @@
+package Introduction_Java;
+
 import java.util.Scanner;
 
 public class Hello {
@@ -6,6 +8,6 @@ public class Hello {
 
         System.out.println("Enter your name: ");
         String name = sc.nextLine();
-        System.out.println("Hello " + name + "!");
+        System.out.println("Introduction_Java.Hello " + name + "!");
     }
 }
