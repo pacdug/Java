@@ -1,5 +1,3 @@
-package Introduction_Java;
-
 import java.util.Scanner;
 
 public class Convert_money {

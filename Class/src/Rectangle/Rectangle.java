@@ -1,4 +1,4 @@
-package Class;
+package Rectangle;
 
 public class Rectangle {
     double width, height;

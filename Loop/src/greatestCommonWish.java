@@ -1,7 +1,4 @@
-package Loop;
-
 import java.util.Scanner;
-import java.math.MathContext;
 
 public class greatestCommonWish {
     public static void main(String[] args) {
