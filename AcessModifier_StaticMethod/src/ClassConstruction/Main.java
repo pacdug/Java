@@ -5,10 +5,8 @@ public class Main {
 
         Student student1 = new Student();
 
-
         student1.setName("Nguyen Van A");
         student1.setClasses("12A1");
-
 
         student1.displayStudentInfo();
     }
