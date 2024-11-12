@@ -9,26 +9,44 @@ public class Main {
         FictionBook fBook2 = new FictionBook(2, "Space Adventures", 220.0, "Author E", "Viễn tưởng 1");
         FictionBook fBook3 = new FictionBook(3, "Mystery Night", 90.0, "Author F", "Viễn tưởng 2");
 
-        double totalPrice = pBook1.getPrice() + pBook2.getPrice() + pBook3.getPrice()
-                + fBook1.getPrice() + fBook2.getPrice() + fBook3.getPrice();
-        System.out.println("Total price: " + totalPrice);
+        double totalPrice = 0;
+        Book[] books = {pBook1, pBook2, pBook3, fBook1, fBook2, fBook3 };
+        for(Book book : books){
+            totalPrice += book.getPrice();
+        }
+        System.out.println("Total price after discount: " + totalPrice);
 
         int javaBookCount = 0;
-        if (pBook1.getLanguage().equalsIgnoreCase("Java")) javaBookCount++;
-        if (pBook2.getLanguage().equalsIgnoreCase("Java")) javaBookCount++;
-        if (pBook3.getLanguage().equalsIgnoreCase("Java")) javaBookCount++;
-        System.out.println("Number of ProgrammingBook with language 'Java': " + javaBookCount);
+        for (Book book : books) {
+            if (book instanceof ProgrammingBook) {
+                ProgrammingBook progBook = (ProgrammingBook) book;
+                if (progBook.getLanguage().equals("Java")) {
+                    javaBookCount++;
+                }
+            }
+        }
+        System.out.println("ProgrammingBook has the language 'Java': " + javaBookCount);
 
-        int fiction1Count = 0;
-        if (fBook1.getCategory().equalsIgnoreCase("Viễn tưởng 1")) fiction1Count++;
-        if (fBook2.getCategory().equalsIgnoreCase("Viễn tưởng 1")) fiction1Count++;
-        if (fBook3.getCategory().equalsIgnoreCase("Viễn tưởng 1")) fiction1Count++;
-        System.out.println("Number of FictionBook with category 'Viễn tưởng 1': " + fiction1Count);
 
-        int fictionUnder100Count = 0;
-        if (fBook1.getPrice() < 100) fictionUnder100Count++;
-        if (fBook2.getPrice() < 100) fictionUnder100Count++;
-        if (fBook3.getPrice() < 100) fictionUnder100Count++;
-        System.out.println("Number of FictionBook with price < 100: " + fictionUnder100Count);
+        int fictionCategoryCount = 0;
+        for (Book book : books) {
+            if (book instanceof FictionBook) {
+                FictionBook fictionBook = (FictionBook) book;
+                if (fictionBook.getCategory().equals("Viễn tưởng 1")) {
+                    fictionCategoryCount++;
+                }
+            }
+        }
+        System.out.println("FictionBook has the category 'Viễn tưởng 1': " + fictionCategoryCount);
+
+        int cheapFictionBookCount = 0;
+        for (Book book : books) {
+            if (book instanceof FictionBook) {
+                if (book.getPrice() < 100) {
+                    cheapFictionBookCount++;
+                }
+            }
+        }
+        System.out.println("FictionBook has price < 100: " + cheapFictionBookCount);
     }
 }
