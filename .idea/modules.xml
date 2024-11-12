@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClass_And_Interface/AbstractClass_And_Interface.iml" filepath="$PROJECT_DIR$/AbstractClass_And_Interface/AbstractClass_And_Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/AcessModifier_StaticMethod/AcessModifier_StaticMethod.iml" filepath="$PROJECT_DIR$/AcessModifier_StaticMethod/AcessModifier_StaticMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class/Class.iml" filepath="$PROJECT_DIR$/Class/Class.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Loop/Loop.iml" filepath="$PROJECT_DIR$/Loop/Loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniTest_1/MiniTest_1.iml" filepath="$PROJECT_DIR$/MiniTest_1/MiniTest_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniTest_2/MiniTest_2.iml" filepath="$PROJECT_DIR$/MiniTest_2/MiniTest_2.iml" />
     </modules>
   </component>
 </project>
