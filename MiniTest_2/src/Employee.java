@@ -1,7 +1,7 @@
 abstract class Employee {
     private String id;
     private String name;
-    private int age ;
+    private int age;
     private String phone;
     private String email;
 
