@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        Company company = new Company(10);
+        Company company = new Company(100);
 
         company.addEmployee(new FullTimeEmployee("E001", "Alice", 30, "123456789", "alice@example.com", 5000, 1000, 20000));
         company.addEmployee(new FullTimeEmployee("E002", "Bob", 25, "987654321", "bob@example.com", 3000, 500, 18000));

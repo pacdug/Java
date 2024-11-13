@@ -15,7 +15,7 @@ class Company {
             System.out.println("Company is at full capacity!");
         }
     }
-
+// trung binh luong
     public double calculateAverageSalary() {
         double totalSalary = 0;
         for (int i = 0; i < size; i++) {
@@ -23,7 +23,7 @@ class Company {
         }
         return totalSalary / size;
     }
-
+// luong fulltime
     public void listFullTimeEmployeesBelowAverage() {
         double averageSalary = calculateAverageSalary();
         for (int i = 0; i < size; i++) {
@@ -32,7 +32,7 @@ class Company {
             }
         }
     }
-
+//luong parttime
     public double calculateTotalPartTimeSalary() {
         double totalSalary = 0;
         for (int i = 0; i < size; i++) {

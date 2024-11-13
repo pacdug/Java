@@ -57,6 +57,6 @@ abstract class Employee {
 
     @Override
     public String toString() {
-        return "Employee{id='" + id + "', name='" + name + "', age=" + age + ", phone='" + phone + "', email='" + email + "'}";
+        return "Employee[id='" + id + "', name='" + name + "', age=" + age + ", phone='" + phone + "', email='" + email + "']";
     }
 }
