@@ -8,26 +8,26 @@ public class CrispyFlour extends Material implements Discount {
         this.quantity = quantity;
     }
 
+    @Override
+    public double getAmount() {
+        return quantity * getCost();
+    }
+
+    @Override
+    public LocalDate getExpiryDate() {
+        return getManufacturingDate().plusYears(1);
+    }
+
+    @Override
+    public double getRealMoney() {
+        return getAmount() * 0.94; // Giảm 6%
+    }
+
     public int getQuantity() {
         return quantity;
     }
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
-
-    @Override
-    public double getAmount() {
-        return getQuantity() * getCost();
-    }
-
-    @Override
-    public LocalDate getExpiryDate() {
-        return getManufactureDate().plusYears(1);
-    }
-
-    @Override
-    public double getRealMoney() {
-        return getAmount() * 0.94; // Giảm 6%
     }
 }

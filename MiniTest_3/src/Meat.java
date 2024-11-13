@@ -8,26 +8,26 @@ public class Meat extends Material implements Discount {
         this.weight = weight;
     }
 
+    @Override
+    public double getAmount() {
+        return getCost() * weight;
+    }
+
+    @Override
+    public LocalDate getExpiryDate() {
+        return getManufacturingDate().plusDays(7);
+    }
+
+    @Override
+    public double getRealMoney() {
+        return getAmount() * 0.97; // Giảm 3%
+    }
+
     public double getWeight() {
         return weight;
     }
 
     public void setWeight(double weight) {
         this.weight = weight;
-    }
-
-    @Override
-    public double getAmount() {
-        return getCost() * getWeight();
-    }
-
-    @Override
-    public LocalDate getExpiryDate() {
-        return getManufactureDate().plusDays(7);
-    }
-
-    @Override
-    public double getRealMoney() {
-        return getAmount() * 0.97; // Giảm 3%
     }
 }

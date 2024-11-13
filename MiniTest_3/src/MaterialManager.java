@@ -1,5 +1,5 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class MaterialManager {
@@ -13,46 +13,41 @@ public class MaterialManager {
         materials.add(material);
     }
 
-    public void removeMaterial(String id) {
+    public void removeMaterialById(String id) {
         materials.removeIf(material -> material.getId().equals(id));
     }
 
-    public Material findMaterialById(String id) {
-        for (Material material : materials) {
-            if (material.getId().equals(id)) {
-                return material;
+    public void updateMaterial(Material updatedMaterial) {
+        for (int i = 0; i < materials.size(); i++) {
+            if (materials.get(i).getId().equals(updatedMaterial.getId())) {
+                materials.set(i, updatedMaterial);
+                break;
             }
         }
-        return null;
     }
 
     public double calculateTotalAmount() {
-        double total = 0;
-        for (Material material : materials) {
-            total += material.getAmount();
-        }
-        return total;
-    }
-
-    public double calculateTotalRealMoney() {
-        double total = 0;
-        for (Material material : materials) {
-            if (material instanceof Discount) {
-                total += ((Discount) material).getRealMoney();
-            } else {
-                total += material.getAmount();
-            }
-        }
-        return total;
+        return materials.stream().mapToDouble(Material::getAmount).sum();
     }
 
     public void sortMaterialsByCost() {
-        materials.sort(Comparator.comparingInt(Material::getCost));
+        materials.sort((m1, m2) -> Integer.compare(m1.getCost(), m2.getCost()));
+    }
+
+    public double calculateTotalDiscount() {
+        return materials.stream().mapToDouble(material -> {
+            if (material instanceof Discount) {
+                return ((Discount) material).getRealMoney();
+            }
+            return material.getAmount();
+        }).sum();
+    }
+
+    public double calculateDiscountDifference() {
+        return calculateTotalAmount() - calculateTotalDiscount();
     }
 
     public void printMaterials() {
-        for (Material material : materials) {
-            System.out.println(material.getName() + " - Amount: " + material.getAmount() + " - RealMoney: " + ((Discount) material).getRealMoney());
-        }
+        materials.forEach(System.out::println);
     }
 }

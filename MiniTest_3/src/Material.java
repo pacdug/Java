@@ -1,15 +1,15 @@
 import java.time.LocalDate;
 
 public abstract class Material {
-    protected String id;
-    protected String name;
-    protected LocalDate manufactureDate;
-    protected int cost;
+    private String id;
+    private String name;
+    private LocalDate manufacturingDate;
+    private int cost;
 
-    public Material(String id, String name, LocalDate manufactureDate, int cost) {
+    public Material(String id, String name, LocalDate manufacturingDate, int cost) {
         this.id = id;
         this.name = name;
-        this.manufactureDate = manufactureDate;
+        this.manufacturingDate = manufacturingDate;
         this.cost = cost;
     }
 
@@ -29,12 +29,12 @@ public abstract class Material {
         this.name = name;
     }
 
-    public LocalDate getManufactureDate() {
-        return manufactureDate;
+    public LocalDate getManufacturingDate() {
+        return manufacturingDate;
     }
 
-    public void setManufactureDate(LocalDate manufactureDate) {
-        this.manufactureDate = manufactureDate;
+    public void setManufacturingDate(LocalDate manufacturingDate) {
+        this.manufacturingDate = manufacturingDate;
     }
 
     public int getCost() {
