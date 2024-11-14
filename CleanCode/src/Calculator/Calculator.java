@@ -1,3 +1,5 @@
+package Calculator;
+
 public class Calculator {
     public static int calculate(int firstOperand, int  secondOperand, char operator) {
         switch (operator) {
