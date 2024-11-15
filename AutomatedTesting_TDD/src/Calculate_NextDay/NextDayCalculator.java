@@ -1,3 +1,5 @@
+package Calculate_NextDay;
+
 import java.time.LocalDate;
 
 public class NextDayCalculator {
