@@ -18,7 +18,7 @@ public class AlgorithmComplexityTest {
         }
 
         int max = 0;
-        char character = (char) 255;1
+        char character = (char) 255;
         for (int j = 0; j < 255; j++) {
             if (frequentChar[j] > max) {
                 max = frequentChar[j];
