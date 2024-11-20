@@ -41,7 +41,6 @@ public class ArrayInsertion {
             }
             System.out.println();
         }
-
         scanner.close();
     }
 }
