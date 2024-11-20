@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AbstractClass_And_Interface/AbstractClass_And_Interface.iml" filepath="$PROJECT_DIR$/AbstractClass_And_Interface/AbstractClass_And_Interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AcessModifier_StaticMethod/AcessModifier_StaticMethod.iml" filepath="$PROJECT_DIR$/AcessModifier_StaticMethod/AcessModifier_StaticMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AutomatedTesting_TDD/AutomatedTesting_TDD.iml" filepath="$PROJECT_DIR$/AutomatedTesting_TDD/AutomatedTesting_TDD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Class/Class.iml" filepath="$PROJECT_DIR$/Class/Class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DSA_List/DSA_List.iml" filepath="$PROJECT_DIR$/DSA_List/DSA_List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Inherit/Inherit.iml" filepath="$PROJECT_DIR$/Inherit/Inherit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acessmodifier_staticMethod/AcessModifier_StaticMethod.iml" filepath="$PROJECT_DIR$/acessmodifier_staticMethod/AcessModifier_StaticMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/Array.iml" filepath="$PROJECT_DIR$/array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automatedtesting_TDD/AutomatedTesting_TDD.iml" filepath="$PROJECT_DIR$/automatedtesting_TDD/AutomatedTesting_TDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/Class.iml" filepath="$PROJECT_DIR$/class/Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_list/DSA_List.iml" filepath="$PROJECT_DIR$/DSA_list/DSA_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inherit/Inherit.iml" filepath="$PROJECT_DIR$/inherit/Inherit.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Loop/Loop.iml" filepath="$PROJECT_DIR$/Loop/Loop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MiniTest_1/MiniTest_1.iml" filepath="$PROJECT_DIR$/MiniTest_1/MiniTest_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MiniTest_2/MiniTest_2.iml" filepath="$PROJECT_DIR$/MiniTest_2/MiniTest_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MiniTest_3/MiniTest_3.iml" filepath="$PROJECT_DIR$/MiniTest_3/MiniTest_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/floating_Bubble_Arrangement/floating_Bubble_Arrangement.iml" filepath="$PROJECT_DIR$/floating_Bubble_Arrangement/floating_Bubble_Arrangement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/search_Algorithm/search_Algorithm.iml" filepath="$PROJECT_DIR$/search_Algorithm/search_Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loop/Loop.iml" filepath="$PROJECT_DIR$/loop/Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minitest_1/MiniTest_1.iml" filepath="$PROJECT_DIR$/minitest_1/MiniTest_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minitest_2/MiniTest_2.iml" filepath="$PROJECT_DIR$/minitest_2/MiniTest_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minitest_3/MiniTest_3.iml" filepath="$PROJECT_DIR$/minitest_3/MiniTest_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" filepath="$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debug/debug.iml" filepath="$PROJECT_DIR$/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" filepath="$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" filepath="$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" />
     </modules>
   </component>
 </project>
