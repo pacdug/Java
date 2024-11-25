@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/minitest_3/MiniTest_3.iml" filepath="$PROJECT_DIR$/minitest_3/MiniTest_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" filepath="$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/debug/debug.iml" filepath="$PROJECT_DIR$/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" filepath="$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" filepath="$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" filepath="$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" />
     </modules>
