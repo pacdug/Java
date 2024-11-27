@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" filepath="$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" filepath="$PROJECT_DIR$/floating_bubble_arrangement/floating_Bubble_Arrangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" filepath="$PROJECT_DIR$/search_algorithm/search_Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threading/threading.iml" filepath="$PROJECT_DIR$/threading/threading.iml" />
     </modules>
   </component>
 </project>
