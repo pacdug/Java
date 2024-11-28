@@ -9,10 +9,12 @@ public class AccountExampleTest {
 
     public static void main(String args[]) {
         accountExample = new AccountExample();
+
         for (String account : validAccount) {
             boolean isValid = accountExample.validate(account);
             System.out.println("Account is " + account + " is valid: " + isValid);
         }
+
         for (String account : invalidAccount) {
             boolean isValid = accountExample.validate(account);
             System.out.println("Account is " + account + " is valid: " + isValid);
