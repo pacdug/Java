@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/minitest_1/MiniTest_1.iml" filepath="$PROJECT_DIR$/minitest_1/MiniTest_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/minitest_2/MiniTest_2.iml" filepath="$PROJECT_DIR$/minitest_2/MiniTest_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/minitest_3/MiniTest_3.iml" filepath="$PROJECT_DIR$/minitest_3/MiniTest_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String_Regex/String_Regex.iml" filepath="$PROJECT_DIR$/String_Regex/String_Regex.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" filepath="$PROJECT_DIR$/abstractClass_and_interface/abstractClass_and_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/debug/debug.iml" filepath="$PROJECT_DIR$/debug/debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" filepath="$PROJECT_DIR$/dsa_stack_queue/dsa_stack_queue.iml" />
